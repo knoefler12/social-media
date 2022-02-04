@@ -1,0 +1,93 @@
+body {
+  background-color: #cfe2ff;
+}
+
+#container {
+  margin-left: 370px;
+  margin-right: 370px;
+  text-align: center;
+}
+#main-header {
+  padding: 10px;
+  border-bottom: 1px solid black;
+  background-color: #dae7fa;
+  text-align: center;
+}
+
+button + button {
+  margin-left: 10px;
+}
+
+.table-container {
+  margin: auto;
+  width: 50%;
+}
+input.btn {
+  text-align: center;
+  line-height: 15px;
+  height: 30px;
+  margin-left: 10px;
+  border-width: 1px;
+  border-color: black;
+  background-color: #cfe2ff;
+}
+
+span.btn {
+  display: inline-block;
+  border: solid 1px black;
+}
+
+div#add-post-div {
+  border: solid 1px black;
+  margin-left: 400px;
+  margin-right: 400px;
+  max-width: 400px;
+  margin-bottom: 10px;
+}
+
+#search-for-hashtag {
+  display: fixed;
+  margin-right: 2400px;
+}
+#submit-hashtag {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+span.edit-span {
+  border: solid 2px black;
+}
+
+#posts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+
+.post {
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid;
+}
+
+#username {
+  float: left;
+}
+
+#nickname {
+  float: right;
+}
+
+.post-info-div {
+  border-bottom: black 1px solid;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 500px;
+  width: 100%;
+}

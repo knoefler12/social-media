@@ -1,0 +1,34 @@
+body {
+  background-color: #cfe2ff;
+}
+
+#container {
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align: center;
+}
+#main-header {
+  padding: 10px;
+  border-bottom: 1px solid black;
+  background-color: #dae7fa;
+  text-align: center;
+}
+
+input.btn {
+  text-align: center;
+  line-height: 15px;
+  height: 30px;
+  margin-left: 10px;
+}
+input.btn {
+  border-width: 1px;
+  border-color: black;
+  background-color: #cfe2ff;
+}
+
+#create-account-div {
+  margin-top: 20px;
+}
+.login-buttons-div {
+  margin-top: 10px;
+}
