@@ -72,29 +72,8 @@ function constructPostCard(postDiv, post) {
   }
 }
 
-/*function searchForHashtag() {
-  const submitHashtagDiv = document.getElementById("search-for-hashtag");
-  const hashtagInput = document.getElementById("input-hashtag").value;
-  const savedPostGrid = postGrid;
-
-  console.log(hashtagInput);
-
-  const cancelSearchButton = document.createElement("button");
-  cancelSearchButton.innerText = "CANCEL";
-  cancelSearchButton.className = "btn";
-  cancelSearchButton.onclick = () => cancelSearchButton(savedPostGrid);
-  submitHashtagDiv.appendChild(cancelSearchButton);
-
-  fetch(postsUrl + "hashtag/" + hashtagInput)
-    .then((response) => response.json())
-    .then((post) => {
-      console.log(post);
-    });
-}*/
-
 function cancelSearchButton(savedPostGrid) {}
 
-//lav så man kan se om den er redigeret
 function editPost(post, submitButton, divData) {
   if (submitButton.value == 0) {
     divData[4].innerText = "";
